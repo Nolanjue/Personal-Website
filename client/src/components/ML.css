@@ -1,0 +1,82 @@
+.project-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    width:100%;
+    gap:10px;
+}
+
+.project-images{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80%;
+    width:80%;
+}
+.project-image{
+    height:90%;
+    width:90%;
+    padding-left:5%;
+    padding-top:15%;
+}
+
+
+.project-slider{
+    display:flex;
+    width:70%;
+    height:40%;
+    justify-content:space-between;
+    align-items:center;
+  
+}
+
+.project-arrow{
+    height:50px;
+    cursor:pointer;
+    padding-bottom:20%; /*you should mainly use for containers, as it works better, especially if in a flex container it may shift all elements up*/
+   
+}
+.project-desc{
+    display:flex;
+    justify-content:center;
+    width:100%;
+   
+}
+.project-desc >p{
+    transform:translateY(-15vh);
+}
+
+@media(max-width:800px){
+
+    .project-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:30px;
+    }
+    .project-image{
+        display:flex;
+        padding-right:30%;
+        height:250px;
+        /*note that the height and width are affecting arrow functionality at this width, a big problem*/
+        width:250px;
+    }
+    .project-slider{
+        display:flex;
+        width:300px;
+        justify-content: space-between;
+    }
+   
+  
+    .project-desc{
+        padding-top:50%;
+    }
+    .project-desc > p{
+
+        font-size:25px;
+    }
+
+}

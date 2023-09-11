@@ -1,0 +1,88 @@
+.contact-section{
+    padding-bottom:10%;
+    height:70vh;
+    width:100%;
+    scroll-snap-align:center;
+    /*used with scroll-snap type(in parent) to manipulte the position of element when scrolled*/
+    display:flex;
+
+}
+
+.contact-left{
+    padding-left:10%;
+    padding-top:10%;
+    height:90%;
+    width:50%;
+    display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    font-weight:bold;
+    width:100%;
+    height:100%;
+   
+   
+}
+.contact-form > input {
+    color:black;
+    width:50%;
+    padding:10px;
+    border:none;
+    border-radius:7px;
+}
+
+.contact-form > textarea {
+    color:black;
+    width:80%;
+    height:40%;
+    border:none;
+    
+}
+
+.contact-button {
+    width:30%;
+    padding:5px;
+    border-radius:7px;
+    border:none;
+    color:white;
+    background-color:rgb(223, 34, 34);
+    cursor:pointer;
+}
+
+.contact-right{
+    width:70%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+@media(max-width:980px){
+    .contact-section{
+        padding-top:400px;
+        height:200vh;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+     
+    }
+    .contact-left{
+       display:flex;
+       width:80%;
+       height:60%;
+
+    }
+    .contact-right{
+        transform:translateY(10%);
+        width:300px;
+        height:300px;
+    }
+}

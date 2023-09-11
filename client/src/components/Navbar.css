@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.Navbar-section{
+    display:flex;
+    width:100%;
+    gap:30px;
+    align-items:center;
+    justify-content:space-between;
+    top:0;
+    height:100px;
+    background-color:rgb(5, 2, 2);
+    z-index:1000;
+    font-family:'Oswald', sans-serif;
+    scroll-behavior: smooth;
+  
+}
+.left{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    width:50%;
+    
+
+}
+.icons > img {
+    width:100px;
+    height:100px;
+    cursor:pointer;
+}
+
+
+.list{
+    display:flex;
+    gap:40px;
+    list-style:none;
+    transform:translateY(-40%);
+}
+
+
+.item{
+    cursor:pointer;
+    scroll-behavior:smooth;
+  
+   
+    
+}
+.item > a{
+    text-decoration: none;
+    color:white;
+}
+
+  
+
+.right{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-right:20px;
+    gap:20px;
+    transform:translateY(-30%);
+    #icon {
+        height:20px;
+        width:20px;
+    }
+
+}
+.nav-button{
+    font-family:'Oswald', sans-serif;
+    border:none;
+    border-radius:8px;
+    padding:9px 10px;
+    color:white;
+    background-color:red;
+    cursor:pointer;
+    font-weight:bold;
+}
+.nav-button:hover{
+    background-color:black;
+}
+
+
+.dropdown-container{
+    display:flex;
+    align-items:center;
+    position:relative;
+    flex-direction:column;
+    transform:translate(-50px);
+
+}
+.drop-icon{
+    height:30px;
+}
+
+.dropdown{
+    display:none;
+    color:white;
+    cursor:pointer;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+
+}
+.drop-items{
+    display:none;
+    background-color:black;
+    height:150px;
+    width:150px;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    padding-top:5%;
+    top:100%;/*need this as it makes the dropitem go under the dropdown icon, as its distance fromtop */
+}
+.drop-list{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    list-style:none;
+}
+/*An attempt was made here to make animations on command of another object by adding classlists..
+Im currently on adept at creating animations that are visible on render, 
+objects that are on user command however..I need to figure out
+
+.dropdown-event{
+    animation: appear 2s ease;
+}
+@keyframes appear{
+    from{
+        display:none;
+    }
+    to{
+        display:flex;
+    }
+}
+*/
+@media(max-width:800px){
+    .dropdown{
+        display:flex;
+    }
+    .links{
+        display:none;
+    }
+}
