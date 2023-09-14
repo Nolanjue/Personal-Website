@@ -30,7 +30,7 @@ function Pages() {
             </div>
             <div className = 'future-goals'>
                 <h3>- Future Goals -</h3>
-                <p>My goals include to creating AI's that helps our daily life and creating business-ready full stack applications</p>
+                <p>My goals include to creating AI's that helps our daily life and creating really cool projects!</p>
                 <p> Projects that are in progress include a full stack social media website and </p>
             </div>
             <div className = 'Aspirations'>
