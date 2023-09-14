@@ -57,9 +57,9 @@
         justify-content:center;
         gap:30px;
     }
-    .project-image{
+    .project-images{
         display:flex;
-        padding-right:30%;
+    
         height:250px;
         /*note that the height and width are affecting arrow functionality at this width, a big problem*/
         width:250px;
