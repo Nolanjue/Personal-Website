@@ -27,7 +27,8 @@
 
 }
 ::-webkit-scrollbar {
-    width:0px;/*can manipulte the width of the scrollbar if needed */
+    width: 20px;/*can manipulte the width of the scrollbar if needed */
+    color:black
 }
 
 .bio{

@@ -24,7 +24,9 @@
 
 }
 ::-webkit-scrollbar {
-    width:0px;/*can manipulte the width of the scrollbar if needed */
+    width: 20px;/*can manipulte the width of the scrollbar if needed, always have a width, 
+    as you cant scroll without mouses as a result*/
+    color:black;
 }
 
 
