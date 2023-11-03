@@ -32,7 +32,7 @@ function Contact() {
       emailjs.sendForm('service_ipz0qg5', 'template_8sgfdwj', form.current, 'slJZzoJqsRfefdxez')
       .then((result) => {
           console.log(result.text);
-          setSuccess('Your messaage has been sent! Thank you for contacting me!')
+          setSuccess('Your message has been sent! Thank you for contacting me!')
       }, (error) => {
           console.log(error.text);
           setSuccess('error has occured');
