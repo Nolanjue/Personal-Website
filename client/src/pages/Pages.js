@@ -15,9 +15,6 @@ function Pages() {
                 </div>
         </div>
         <div className = 'bio'>
-            <div className = 'bio-image'>
-                <img src = '/images/profilepic.png' alt = 'Me'/>
-            </div>
             <div className = 'bio-descr'>
                 <p>Thank you for visiting my website, If you want to know more about me or have 
                     other questions, please contact me! I'd Love to talk!
