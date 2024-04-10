@@ -14,9 +14,8 @@
     height:100%;/*100% of the total height of the respective elements in the div */
     background-image: linear-gradient(to bottom right, #05081a, #7e0707);
     background-size:cover;
-    scroll-snap-type: y mandatory;
-    scroll-behavior:smooth;
-    overflow-y:auto;
+
+ 
     color:white;
    
     
